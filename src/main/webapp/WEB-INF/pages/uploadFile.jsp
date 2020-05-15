@@ -26,20 +26,20 @@
               enctype="multipart/form-data" class="railway">
 
             <div class="subgrid">
-                <div class="row-1 file-upload">
+                <div class="row-1 button">
                     <label for="file">Select file
                         <input accept=".png, .jpg, .gif" id="file" name="file" type="file" required/>
                     </label>
                 </div>
 
                 <div class="preview row-1">
-                    <div id="error">
+                    <div class="error">
                         ${errorMessage}
                     </div>
-                    <p>No files currently selected for upload</p>
+                    <%--<p class="error">No files currently selected for upload</p>--%>
                 </div>
 
-                <div class="row-1 file-upload">
+                <div class="row-1 button">
                     <label for="submit">Upload
                         <input type="submit" name="button" value="upload" id="submit"/>
                     </label>

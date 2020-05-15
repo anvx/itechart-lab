@@ -16,7 +16,7 @@ public class FileExtensionValidator implements Validator {
         String fileName = (String) req.getAttribute("fileName");
 
         for (String extension : ALLOWED_FILE_EXTENSION) {
-            if (fileName.endsWith(extension)) {
+            if (fileName.toLowerCase().endsWith(extension)) {
                 isAllowed = true;
                 break;
             }

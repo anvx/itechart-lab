@@ -31,6 +31,7 @@ function validFileType(file) {
     }
     return false;
 }
+
 function updateImageDisplay() {
     while (preview.firstChild) {
         preview.removeChild(preview.firstChild);
@@ -56,7 +57,8 @@ function updateImageDisplay() {
 
             } else {
                 para.textContent = `File name ${curFiles[i].name}, ${returnFileSize(curFiles[i].size)}: 
-                Not a valid file type or size.` ;
+                Not a valid file type or size.`;
+                para.style.color = "red";
                 listItem.appendChild(para);
             }
 

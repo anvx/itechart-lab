@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Download</title>
 
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/itechart.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/style/uploadapp.css">
@@ -31,13 +31,13 @@
                     </select>
                 </div>
 
-                <div class="row-1 file-upload grid-1">
+                <div class="row-1 button grid-1">
                     <label for="save_button">Download
                         <input type="submit" value="save" name="button" id="save_button">
                     </label>
                 </div>
 
-                <div class="row-1 file-upload grid-1">
+                <div class="row-1 button grid-1">
                     <label for="open_button">Open
                         <input type="submit" value="open" name="button" id="open_button">
                     </label>
